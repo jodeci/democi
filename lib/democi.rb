@@ -1,5 +1,4 @@
 require "democi/version"
-
+require "democi/railtie"
 module Democi
-  # Your code goes here...
 end

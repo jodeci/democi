@@ -13,4 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary = "just a gem for demo"
   spec.homepage = "https://github.com/jodeci/democi"
   spec.files = Dir["lib/**/*", "LICENSE.txt", "README.md"]
+
+  spec.add_dependency "rails", "~> 5.0"
+  spec.add_dependency "activesupport", "~> 5.0"
 end
