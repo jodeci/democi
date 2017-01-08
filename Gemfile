@@ -1,4 +1,8 @@
-source 'https://rubygems.org'
-
-# Specify your gem's dependencies in democi.gemspec
+source "https://rubygems.org"
 gemspec
+
+group :test, :development do
+  gem "bundler"
+  gem "rake"
+  gem "rspec"
+end
