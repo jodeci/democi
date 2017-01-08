@@ -277,13 +277,7 @@ describe ApplicationHelper, type: :helper do
 end
 ```
 
-覺得礙眼的話，就順手把預設的 `democi_spec.rb` 砍掉吧。寫完之後，依開發環境的狀況，這邊可能會狂噴錯 XD
-
-```
-$ rake spec
-```
-
-通常都是路徑問題，因此補上：
+覺得礙眼的話，就順手把預設的 `democi_spec.rb` 砍掉吧。寫完之後，依開發環境的狀況，`rake spec` 可能會狂噴錯 XD 由於通常都是路徑問題，因此補強一下：
 
 ```
 # .rspec
@@ -308,7 +302,7 @@ $ rake spec
 
 ## Code Climate & Travis CI
 
-先到這邊把你的 github repo 設定起來。Open source 專案可以免費使用。直接以自己的 guthub 帳號登入最單純：
+先到這邊把你的 github repo 設定起來。Open source 專案可以免費使用。直接以自己的 github 帳號登入最單純：
 
 * [Travis CI](https://travis-ci.org/)
 * [Code Climate](https://codeclimate.com/)
